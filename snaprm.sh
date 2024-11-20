@@ -1,6 +1,6 @@
 #!/bin/bash
 printf "\nYou're using: "
-lsb_release -a
+cat /etc/os-release
 printf "\n- - - - - - - - - - -\n\n"
 
 printf "Note: This script will purge snapd ENTIRELY from your system.\n"
