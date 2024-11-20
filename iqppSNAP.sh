@@ -1,7 +1,7 @@
 #!/bin/bash
 printf "\n- - - - - - - - - - -\n\n"
 
-hash nala 2>/dev/null && printf "nala is installed - person of culture, I see.\n" && pm=nala || pm=apt
+#hash nala 2>/dev/null && printf "nala is installed - person of culture, I see.\n" && pm=nala || pm=apt
 printf "Note: This script will purge snapd ENTIRELY from your system.\n"
 printf "If you do not want this, kill the script with CTRL+C NOW.\n\n"
 x=9
