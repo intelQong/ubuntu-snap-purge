@@ -1,6 +1,6 @@
 #!/bin/bash
 printf "\nYou're using: "
-usb_release -a
+lsb_release -a
 printf "\n- - - - - - - - - - -\n\n"
 
 printf "Note: This script will purge snapd ENTIRELY from your system.\n"
