@@ -1,5 +1,5 @@
 #!/bin/bash
-printf "\nYou're using: 
+printf "\nYou're using: "
 usb_release -a
 printf "\n- - - - - - - - - - -\n\n"
 
