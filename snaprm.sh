@@ -43,5 +43,5 @@ printf "Enabling unattended updrages for Firefox.\n"
 echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
 
 printf "\nFirefox is now the apt version & all snaps are removed.\n"
-printf "\nNow installing Gnome softwares , extension manager and tweaks\n"
-sudo apt install gnome-software gnome-shell-extension-manager gnome-tweaks
+printf "\nNow installing Gnome softwares.\n"
+sudo apt install gnome-software 
